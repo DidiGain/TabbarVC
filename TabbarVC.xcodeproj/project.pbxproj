@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		8096CB91238421ED0074C8F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096CB90238421ED0074C8F8 /* AppDelegate.swift */; };
 		8096CB93238421ED0074C8F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096CB92238421ED0074C8F8 /* SceneDelegate.swift */; };
-		8096CB95238421ED0074C8F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096CB94238421ED0074C8F8 /* ContentView.swift */; };
 		8096CB97238421F00074C8F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8096CB96238421F00074C8F8 /* Assets.xcassets */; };
 		8096CB9A238421F00074C8F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8096CB99238421F00074C8F8 /* Preview Assets.xcassets */; };
 		8096CB9D238421F00074C8F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8096CB9B238421F00074C8F8 /* LaunchScreen.storyboard */; };
+		8096CBA5238422080074C8F8 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096CBA4238422080074C8F8 /* BaseTabBarController.swift */; };
+		8096CBA72384223C0074C8F8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096CBA62384223C0074C8F8 /* HomeViewController.swift */; };
+		8096CBA9238422410074C8F8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096CBA8238422400074C8F8 /* SettingsViewController.swift */; };
+		8096CBAB238422AB0074C8F8 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096CBAA238422AB0074C8F8 /* Labels.swift */; };
+		8096CBAD238422BE0074C8F8 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096CBAC238422BE0074C8F8 /* TextField.swift */; };
+		8096CBAF238423310074C8F8 /* DelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8096CBAE238423310074C8F8 /* DelegateProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8096CB8D238421ED0074C8F8 /* TabbarVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8096CB90238421ED0074C8F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8096CB92238421ED0074C8F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8096CB94238421ED0074C8F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8096CB96238421F00074C8F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8096CB99238421F00074C8F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8096CB9C238421F00074C8F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8096CB9E238421F00074C8F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8096CBA4238422080074C8F8 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		8096CBA62384223C0074C8F8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8096CBA8238422400074C8F8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8096CBAA238422AB0074C8F8 /* Labels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
+		8096CBAC238422BE0074C8F8 /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		8096CBAE238423310074C8F8 /* DelegateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DelegateProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +66,14 @@
 		8096CB8F238421ED0074C8F8 /* TabbarVC */ = {
 			isa = PBXGroup;
 			children = (
+				8096CBA4238422080074C8F8 /* BaseTabBarController.swift */,
+				8096CBA62384223C0074C8F8 /* HomeViewController.swift */,
+				8096CBA8238422400074C8F8 /* SettingsViewController.swift */,
+				8096CBAA238422AB0074C8F8 /* Labels.swift */,
+				8096CBAC238422BE0074C8F8 /* TextField.swift */,
+				8096CBAE238423310074C8F8 /* DelegateProtocol.swift */,
 				8096CB90238421ED0074C8F8 /* AppDelegate.swift */,
 				8096CB92238421ED0074C8F8 /* SceneDelegate.swift */,
-				8096CB94238421ED0074C8F8 /* ContentView.swift */,
 				8096CB96238421F00074C8F8 /* Assets.xcassets */,
 				8096CB9B238421F00074C8F8 /* LaunchScreen.storyboard */,
 				8096CB9E238421F00074C8F8 /* Info.plist */,
@@ -146,9 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8096CBAF238423310074C8F8 /* DelegateProtocol.swift in Sources */,
+				8096CBA72384223C0074C8F8 /* HomeViewController.swift in Sources */,
+				8096CBA5238422080074C8F8 /* BaseTabBarController.swift in Sources */,
 				8096CB91238421ED0074C8F8 /* AppDelegate.swift in Sources */,
+				8096CBAD238422BE0074C8F8 /* TextField.swift in Sources */,
+				8096CBAB238422AB0074C8F8 /* Labels.swift in Sources */,
 				8096CB93238421ED0074C8F8 /* SceneDelegate.swift in Sources */,
-				8096CB95238421ED0074C8F8 /* ContentView.swift in Sources */,
+				8096CBA9238422410074C8F8 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
