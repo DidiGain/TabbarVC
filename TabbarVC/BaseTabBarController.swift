@@ -11,10 +11,14 @@ class BaseTabBarController: UITabBarController {
  
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let homeVC = HomeViewController()
+        let settingsVC = SettingsViewController()
+        settingsVC.delegate = homeVC
 
         viewControllers = [
-            createController(viewController: HomeViewController(), title: "Home", imageName: ""),
-            createController(viewController: SettingsViewController(), title: "Settings", imageName: "")
+            createController(viewController: homeVC, title: "Home", imageName: ""),
+            createController(viewController: settingsVC, title: "Settings", imageName: "")
         ]
     }
 

@@ -9,15 +9,12 @@ import UIKit
 
 final class HomeViewController: UIViewController, TextFieldDataDelegate {
     
-    let settingVC = SettingsViewController()
-    
     private let nameLabel = UILabel.makeLabel(text: "", size: 25, textColor: .lightGray)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .green
         setupLayout()
-        settingVC.delegate = self
         nameLabel.backgroundColor = .white
     }
     
